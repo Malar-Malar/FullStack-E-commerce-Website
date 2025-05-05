@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+    <div class="header">
+           <h1>Pastry Provision</h1>
+            <a href="./Assets/pages/html/searchbar.html">
+                <img src="./Assets/images/search.jpg" alt="searchbar_img"> 
+            </a>
+            <a href="#Home">Home</a>
+            <a href="#Products">Categories</a>
+            <a href="./Assets/pages/html/login.html" >Log in </a>
+            <a href="./Assets/pages/html/profile.html">
+            <img src="./Assets/images/profile-img.png"  alt="profile-icon">
+            </a>
+            <a href="./Assets/pages/html/cart.html">
+                <img src="./Assets/images/Add-to-cart-image.webp" class="add-to-cart" alt="Add-to-cart-logo">
+            </a>
+    </div>
+    <main>
+    </header>
+    
+    <div id="Home" class="backgroundImg">
+
+         <img src="./Assets/images/bread_img.jpg" alt="bread_img">  
+    </div>
+    
+     <div id="Products">
+        
+      </div> 
+       
+    <h1 class="main_page" id="main_page">Categories</h1>
+    <div id="product-list" class="product-container"></div>
+</main>
+
+    <footer>
+        <div class="footer">
+            <p>© 2024 Pastry Provision</p>
+     </div>
+    </footer>
+     
+    <script src="./script.js"></script>
+   
+   
+</body>
+</html>
+
+<!-- function addToCart() {
+    let users=localStorage.getItem("userId");
+    if(users==null){
+      alert("Please log in ")
+    }
+    else{
+    const productId = Number(params.get("id"));
+    const quantity = 1; // default quantity
+    const userId = users; // TEMP: Replace with dynamic logged-in user ID
+    const btn = document.querySelector(".btn.cart");
+  
+    btn.disabled = true;
+    btn.textContent = "Adding...";
+  
+    const payload = {
+      userId: users,
+      product: { id: productId },
+      quantity: quantity
+    };
+  
+    fetch("http://localhost:8080/api/cart/add", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Error adding to cart");
+        }
+        return response.json();
+      })
+      .then(data => {
+        alert(data.message);
+      })
+      .catch(error => {
+        console.error("Error adding to cart:", error);
+        alert("An error occurred while adding the product to the cart.");
+      })
+      .finally(() => {
+        btn.disabled = false;
+        btn.textContent = "Add to Cart";
+      });
+  }}
+  
+  
+
+
+ -->

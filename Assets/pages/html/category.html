@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Category Products</title>
+  <style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    html {
+        overflow-x: hidden;
+    }
+    
+
+    .header{
+        position: fixed;
+        display: flex;
+        background-color: rgb(114, 77, 25);
+        height: 40px;
+        width: 100%;
+        justify-content: space-around;
+        padding: 20px;
+        z-index: 1;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .header h1{
+      color: white;
+      }
+      .searchbar{
+        width: 200px;
+        height: 25px;
+        border-radius: 10px;
+        border: 1px solid black;
+      
+      }
+      .header a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+      }
+      .space{
+      height: 120px;
+      }
+      .header img{
+        height: 30px;
+        
+      }
+      .heading{
+      font-size: 30px;
+      }
+      .backgroundImg img{
+        height: 870px;
+        width: 100%;
+      }
+      .head{
+      text-align: center;
+      margin-bottom: 50px;
+      }
+      .main_page{
+        font-size: 40px;
+        margin-top: 30px;
+        text-align: center;
+      }
+      .space {
+        height: 40px;
+      }
+      
+
+     
+
+      #category-product-list {
+        display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+      gap: 100px;
+      margin-top: 100px;
+    }
+
+    .product {
+        background-color: white;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .product img {
+        width: 100%;
+        height: 200px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .product h2 {
+        font-size: 18px;
+        margin: 5px 0;
+        color: #555;
+    }
+    
+    .product:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+
+      
+  </style>
+</head>
+<body>
+    <header>
+    <div class="header">
+           <h1>Pastry Provision</h1>
+            <a href="../../../Assets/pages/html/searchbar.html">
+                <img src="../../../Assets/images/search.jpg" alt="searchbar_img"> 
+            </a>
+            <a href="../../../index.html">Home</a>
+            <a href="../../../index.html#Products">Categories</a>
+            <a href="../../Assets/pages/html/login.html" >Log in </a>
+            <a href="../../../Assets/pages/html/profile.html">
+            <img src="../../../Assets/images/profile-img.png"  alt="profile-icon">
+            </a>
+            <a href="../../../Assets/pages/html/cart.html">
+                <img src="../../../Assets/images/Add-to-cart-image.webp" class="add-to-cart" alt="Add-to-cart-logo">
+            </a>
+    </div>
+    
+    </header>
+
+    <div class="space"></div>
+  
+  <div id="category-product-list"></div>
+
+  <script>
+    // JS code to fetch products based on category
+    const params = new URLSearchParams(window.location.search);
+    const categoryName = params.get("categoryId");
+    console.log(categoryName)
+
+    if (categoryName) {
+      fetch(`http://localhost:8080/api/products/category/${categoryName}`)
+        .then(response => response.json())
+        .then(data => {
+          const productList = document.getElementById("category-product-list");
+          data.forEach(product => {
+            const productDiv = document.createElement("div");
+            productDiv.classList.add("product");
+
+            productDiv.innerHTML = `
+              <img src="${product.imageUrl}" alt="${product.name}" draggable="false">
+              <h3>${product.name}</h3>
+              
+            `;
+
+            productDiv.addEventListener("click", () => {
+              window.location.href = `detail.html?id=${product.id}`;
+            });
+
+            productList.appendChild(productDiv);
+          });
+        })
+        .catch(error => {
+          console.error("Error loading category products:", error);
+        });
+    }
+  </script>
+</body>
+</html>

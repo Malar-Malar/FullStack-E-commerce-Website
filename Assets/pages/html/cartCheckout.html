@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="../../../Assets/pages/CSS/checkout.css">
+</head>
+<body>
+  <h1>Checkout</h1>
+
+  <div id="checkout-cart-items">
+    
+  </div>
+
+  <form id="checkout-form">
+    <input type="text" id="name" placeholder="Full Name" required />
+    <input type="tel" id="phone" placeholder="Phone Number" required />
+    <textarea id="address" placeholder="Delivery Address" required></textarea>
+    <input type="text" id="state" placeholder="State" required />
+    <input type="text" id="pincode" placeholder="Pincode" required />
+    <label for="payment-method" class="payment-method-label">Select Payment Method</label>
+    <select id="payment-method" name="payment-method" class="payment-method-select">
+      <option value="cod">Cash on Delivery</option>
+      <option value="online">Online Payment</option>
+    </select>
+    <button type="submit">Place Order</button>
+  </form>
+
+  <script type="module" src="../../../Assets/pages/JS/cartCheckout.js"></script>
+</body>
+</html>

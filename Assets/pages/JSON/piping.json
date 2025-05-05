@@ -1,0 +1,77 @@
+{
+    "products": [
+        {
+          "id": 1,
+          "image": "../../../Assets/images/my-wish-list.png",
+          "image1": "../../../Assets/images/piping_bag1.jpg",
+          "name": "Piping Bag",
+          "image2": "../../../Assets/images/star_rating_img.webp",
+          "description": "A piping bag is a cone-shaped bag used for decorating cakes, cupcakes, and desserts. It is filled with icing or cream and squeezed to create different designs. The bag can be reusable or disposable.",
+          "price": "₹ 20"
+        },
+        {
+            "id": 2,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/piping_bag2.jpg",
+            "name": "3 Set of Piping bag",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A piping bag is a cone-shaped bag used for decorating cakes, cupcakes, and desserts. It is filled with icing or cream and squeezed to create different designs. The bag can be reusable or disposable.",
+            "price": "₹ 40"
+        },
+        {
+            "id": 3,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/nozzile_img1.jpg",
+            "name": "Grass Decorating Nozzle",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A nozzle is a small metal or plastic tip attached to the end of a piping bag. It controls the shape of the icing as it comes out. Nozzles come in different shapes and sizes to make patterns like stars, flowers, or writing.",
+            "price": "₹ 150"
+        },{
+            "id": 4,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/nozzile_img2.jpg",
+            "name": "Round Nozzle",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A nozzle is a small metal or plastic tip attached to the end of a piping bag. It controls the shape of the icing as it comes out. Nozzles come in different shapes and sizes to make patterns like stars, flowers, or writing.",
+            "price": "₹ 20"
+        },
+        {
+            "id": 5,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/nozzile_img3.jpg",
+            "name": "Leaf Nozzle",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A nozzle is a small metal or plastic tip attached to the end of a piping bag. It controls the shape of the icing as it comes out. Nozzles come in different shapes and sizes to make patterns like stars, flowers, or writing.",
+            "price": "₹ 20"
+        },
+        {
+            "id": 6,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/nozzile_img4.jpg",
+            "name": "French Tip Nozzle",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A nozzle is a small metal or plastic tip attached to the end of a piping bag. It controls the shape of the icing as it comes out. Nozzles come in different shapes and sizes to make patterns like stars, flowers, or writing.",
+            "price": "₹ 50"
+        },
+        {
+            "id": 7,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/nozzile_img5.jpg",
+            "name": "Large petal Nozzle",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A nozzle is a small metal or plastic tip attached to the end of a piping bag. It controls the shape of the icing as it comes out. Nozzles come in different shapes and sizes to make patterns like stars, flowers, or writing.",
+            "price": "₹ 310"   
+        },
+        {
+            "id": 8,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/nozzile_img6.jpg",
+            "name": "Nozzle",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A nozzle is a small metal or plastic tip attached to the end of a piping bag. It controls the shape of the icing as it comes out. Nozzles come in different shapes and sizes to make patterns like stars, flowers, or writing.",
+            "price": "₹ 299"
+        }
+        
+
+    ]
+  }

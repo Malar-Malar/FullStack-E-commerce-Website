@@ -1,0 +1,239 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buy Now - Pastry Provision</title>
+  <link rel="stylesheet" href="../../../Assets/pages/CSS/checkout.css"/>
+</head>
+<body>
+  <div class="checkout-container">
+    <h1>Checkout</h1>
+    <div class="product-info">
+      <img id="product-image" src="" alt="Product Image" class="checkout-product-img" />
+      <p><strong>Product:</strong> <span id="product-name"></span></p>
+      <p><strong>Price:</strong> ₹<span id="product-price"></span></p>
+      <p><strong>Quantity:</strong> <span id="product-quantity"></span></p>
+      <p><strong>Total:</strong> ₹<span id="product-total"></span></p>
+    </div>
+
+    <form id="checkout-form">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <textarea id="address" placeholder="Delivery Address" required></textarea>
+      <input type="text" id="state" placeholder="State" required />
+      <input type="text" id="pincode" placeholder="Pincode" required />
+      <label for="payment-method" class="payment-method-label">Select Payment Method</label>
+      <select id="payment-method" name="payment-method" class="payment-method-select">
+        <option value="cod">Cash on Delivery</option>
+        <option value="online">Online Payment</option>
+      </select>
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+
+  <script>
+    const productData = JSON.parse(localStorage.getItem("buyNowProduct"));
+    console.log(productData.productImage)
+  
+    if (productData) {
+      document.getElementById("product-name").textContent = productData.productName;
+      document.getElementById("product-price").textContent = productData.productPrice;
+      document.getElementById("product-quantity").textContent = productData.quantity;
+      document.getElementById("product-total").textContent = productData.productPrice * productData.quantity;
+      document.getElementById("product-image").src = productData.productImage;
+      console.log(document.getElementById("product-image").src = productData.productImage)
+    } else {
+      alert("Product data not found. Please go back and try again.");
+    }
+  
+
+      document.getElementById("checkout-form").addEventListener("submit", async function(e) {
+      e.preventDefault();
+  
+      const selectedPaymentMethod = document.getElementById("payment-method").value;
+
+      let user_id =localStorage.getItem("userId");
+
+    
+  
+      const orderData = {
+        userId: user_id, // replace with logged-in user ID
+        product: {
+          id: productData.productId
+        },
+        quantity: productData.quantity,
+        name: document.getElementById("name").value,
+        phone: document.getElementById("phone").value,
+        address: document.getElementById("address").value,
+        state: document.getElementById("state").value,
+        pincode: document.getElementById("pincode").value,
+        imageUrl: productData.productImage,
+        paymentMethod: selectedPaymentMethod
+      };
+  
+      const res = await fetch("http://localhost:8080/api/orders/checkout/buy-now", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(orderData)
+      });
+  
+      const result = await res.json();
+      if (result.message === "Order placed successfully") {
+        alert("Order placed successfully!");
+        document.getElementById("checkout-form").reset();
+        localStorage.removeItem("buyNowProduct");
+      } else {
+        alert("Failed to place order.");
+      }
+    });
+  </script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout - Pastry Provision</title>
+  <link rel="stylesheet" href="../../../Assets/pages/CSS/checkout.css"/>
+</head>
+<body>
+  <div class="checkout-container">
+    <h1>Checkout</h1>
+
+    <div class="product-info">
+      <!-- This will dynamically populate based on Buy Now or Cart Checkout -->
+      <img id="product-image" src="" alt="Product Image" class="checkout-product-img" />
+      <p><strong>Product:</strong> <span id="product-name"></span></p>
+      <p><strong>Price:</strong> ₹<span id="product-price"></span></p>
+      <p><strong>Quantity:</strong> <span id="product-quantity"></span></p>
+      <p><strong>Total:</strong> ₹<span id="product-total"></span></p>
+    </div>
+
+    <form id="checkout-form">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <textarea id="address" placeholder="Delivery Address" required></textarea>
+      <input type="text" id="state" placeholder="State" required />
+      <input type="text" id="pincode" placeholder="Pincode" required />
+      <label for="payment-method" class="payment-method-label">Select Payment Method</label>
+      <select id="payment-method" name="payment-method" class="payment-method-select">
+        <option value="cod">Cash on Delivery</option>
+        <option value="online">Online Payment</option>
+      </select>
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+
+  <script>
+    const fromCart = window.location.search.includes("fromCart=true");
+
+    if (fromCart) {
+      // Cart Checkout Logic
+      const cartItems = JSON.parse(localStorage.getItem("cartCheckoutItems"));
+      const productInfoDiv = document.querySelector(".product-info");
+      productInfoDiv.innerHTML = ""; // Clear single product layout
+
+      let total = 0;
+
+      cartItems.forEach(item => {
+        const itemTotal = item.quantity * item.productPrice;
+        total += itemTotal;
+
+        const itemDiv = document.createElement("div");
+        itemDiv.classList.add("cart-checkout-item");
+        itemDiv.innerHTML = `
+          <img src="${item.productImageUrl}" class="checkout-product-img" />
+          <p><strong>${item.productName}</strong></p>
+          <p>Price: ₹${item.productPrice}</p>
+          <p>Quantity: ${item.quantity}</p>
+          <p>Subtotal: ₹${itemTotal}</p>
+          <hr />
+        `;
+        productInfoDiv.appendChild(itemDiv);
+      });
+
+      const totalDiv = document.createElement("p");
+      totalDiv.innerHTML = `<strong>Total: ₹${total}</strong>`;
+      productInfoDiv.appendChild(totalDiv);
+
+    } else {
+      // Buy Now Logic (already existing)
+      const productData = JSON.parse(localStorage.getItem("buyNowProduct"));
+      if (productData) {
+        document.getElementById("product-name").textContent = productData.productName;
+        document.getElementById("product-price").textContent = productData.productPrice;
+        document.getElementById("product-quantity").textContent = productData.quantity;
+        document.getElementById("product-total").textContent = productData.productPrice * productData.quantity;
+        document.getElementById("product-image").src = productData.productImage;
+      } else {
+        alert("Product data not found. Please go back and try again.");
+      }
+    }
+
+    // Handle form submission for both Buy Now and Cart Checkout
+    document.getElementById("checkout-form").addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const selectedPaymentMethod = document.getElementById("payment-method").value;
+      const userId = localStorage.getItem("userId");
+
+      const orderPayload = {
+        userId,
+        name: document.getElementById("name").value,
+        phone: document.getElementById("phone").value,
+        address: document.getElementById("address").value,
+        state: document.getElementById("state").value,
+        pincode: document.getElementById("pincode").value,
+        paymentMethod: selectedPaymentMethod,
+      };
+
+      let endpoint = "";
+      if (fromCart) {
+        const cartItems = JSON.parse(localStorage.getItem("cartCheckoutItems"));
+      
+        orderPayload.items = cartItems.map(item => ({
+          id: item.id,
+          productId: item.productId,
+          productName: item.productName,
+          productPrice: item.productPrice,
+          quantity: item.quantity,
+          productImageUrl: item.productImageUrl
+        }));
+      
+        endpoint = "http://localhost:8080/api/orders/checkout/buy-now";
+      } else {
+        const productData = JSON.parse(localStorage.getItem("buyNowProduct"));
+        orderPayload.product = { id: productData.productId };
+        orderPayload.quantity = productData.quantity;
+        orderPayload.imageUrl = productData.productImage;
+        endpoint = "http://localhost:8080/api/orders/checkout/buy-now";
+      }
+      
+
+       const res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(orderPayload),
+      });
+      
+      const result = await res.json();
+      if (result.message === "Order placed successfully") {
+        alert("Order placed successfully!");
+        localStorage.removeItem("buyNowProduct");
+        localStorage.removeItem("cartCheckoutItems");
+        document.getElementById("checkout-form").reset();
+      } else {
+        alert("Failed to place order.");
+      }
+      }); 
+      
+    
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,96 @@
+ {
+    "products": [
+        {
+          "id": 1,
+          "image": "../../../Assets/images/my-wish-list.png",
+          "image1": "../../../Assets/images/bread_proofing_img1.jpg",
+          "name": "proofing tin round",
+          "image2": "../../../Assets/images/star_rating_img.webp",
+          "description": "Improve your bread's texture and get a crunchy crust with our 20cm bread proofing basket. This basket gives enough space for your sourdough to rest and rise, helping you get the best results. Make your baking better and enjoy bread like from a bakery at home.",
+          "price": "₹ 1200"
+        },
+        {
+            "id": 2,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/bread_proofing_img2.jpg",
+            "name": "proofing tin",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A proofing basket helps the dough keep its shape while it rises. A banneton bread proofing basket is made from rattan cane and leaves a beautiful spiral pattern on the crust. This pattern is a common feature of rustic, hand-made loaves of bread.",
+            "price": "₹ 1500"
+        },
+        {
+            "id": 3,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/measuring-cup-set.jpg",
+            "name": "Measurement cup ",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A measurement cup is a tool used to measure liquids or dry ingredients. It usually has clear markings on the side to show the amount of ingredient. Measurement cups come in different sizes, like 1 cup, ½ cup, and ¼ cup, and they are important for following a recipe and using the right amount of ingredients.",
+            "price": "₹ 150"
+        },
+        {
+            "id": 4,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/measuring_spoon.jpg",
+            "name": "Measurement Spoon",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A measurement spoon is a small spoon used to measure ingredients in exact amounts. It usually comes in sets of different sizes, such as teaspoons and tablespoons. Measurement spoons are important for following recipes accurately, as they help you add the right amount of ingredients.",
+            "price": "₹ 100"
+        },
+        {
+            "id": 5,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/palette_knife_img1.jpg",
+            "name": "knife",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A knife is a tool with a sharp blade used for cutting, chopping, and slicing food.",
+            "price": "₹ 300"
+        },
+        {
+            "id": 6,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/ring-img.jpg",
+            "name": "ring",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A baking ring is a round, metal or silicone tool used to shape and bake food, especially cakes or pastries. It helps keep the batter in a neat shape while baking and ensures even cooking. Baking rings are often used for making perfect round cakes, tarts, and even layered desserts.",
+            "price": "₹ 329"   
+        },
+        {
+            "id": 7,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/silicon_brush_img1.jpg",
+            "name": "brush",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A butter brush is a kitchen tool used to spread butter, oil, or glaze on food. It has soft bristles that make it easy to brush butter on items like bread, rolls, or pastries. Butter brushes are often made of silicone or natural bristles and help give food a smooth, even coating.",
+            "price": "₹ 50"
+        },
+        {
+            "id": 8,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/spatula_img1.jpg",
+            "name": "spatula",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A spatula is a flat kitchen tool with a flexible blade. It is used for mixing, spreading, and flipping food. You can use it to stir things like batter, scrape the sides of bowls, or turn pancakes. Spatulas come in different sizes and shapes, and they are usually made of silicone, wood, or plastic.",
+            "price": "₹ 70"
+        },
+        {
+            "id": 9,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/whisk_img1.jpg",
+            "name": "whisk",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A whisk is a kitchen tool with thin wires that are used to beat or mix food, like eggs or cream. It helps to make things smooth and light, like whipping cream or beating eggs. Whisks come in different shapes and sizes, and they are usually made of metal or plastic.",
+            "price": "₹ 100"
+        },
+        {
+            "id": 10,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/wooden_board.jpg",
+            "name": "wooden board",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A wooden cutting board is a flat piece of wood used for cutting food. Wooden cutting boards are good for chopping vegetables, fruits, meat, and other foods. They are easy to clean and are gentle on knife blades.",
+            "price": "₹ 600"
+        }
+        
+
+    ]
+  }

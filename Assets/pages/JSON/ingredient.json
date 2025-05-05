@@ -1,0 +1,151 @@
+
+ {
+    "products": [
+        {
+          "id": 1,
+          "image": "../../../Assets/images/my-wish-list.png",
+          "image1": "../../../Assets/images/baking_powder.jpg",
+          "name": "baking powder",
+          "image2": "../../../Assets/images/star_rating_img.webp",
+          "description": "Baking powder is a powder used in baking. It helps the dough or batter rise and become fluffy. When you mix it with liquid and heat, it makes bubbles. These bubbles make the food light. Baking powder is used in things like cakes, muffins, and cookies.",
+          "price": "29"
+        },
+        {
+            "id": 2,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/baking_soda.jpg",
+            "name": "baking soda",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Baking soda is also a powder used in baking. It helps the dough or batter rise when it mixes with something sour like vinegar or lemon juice. It makes bubbles, which help make the food fluffy. Baking soda is used in cookies, cakes, and other baked items.",
+            "price": "32"
+        },
+        {
+            "id": 3,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/brown_sugar.jpg",
+            "name": "Brown sugar",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Brown sugar is a type of sugar that is brown in color. It is made by mixing white sugar with molasses, which gives it its color and rich, sweet flavor. Brown sugar is often used in baking, cooking, and making drinks. It can make food taste deeper and more caramel-like compared to white sugar. ",
+            "price": "₹ 79"
+        },{
+            "id": 4,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/flour_img1.jpg",
+            "name": "Flour",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Flour is a fine powder made by grinding grains, like wheat, rice, or corn. It is used in cooking and baking to make many types of food like bread, cakes, and cookies. Flour helps dough and batter to hold together and gives structure to the food.",
+            "price": "₹ 39"
+        },
+        {
+            "id": 5,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/food_colour_img1.jpg",
+            "name": "Yellow food colour",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Yellow food color gives a bright yellow color to food. It is used in cakes, drinks, and candies to make them look cheerful and bright",
+            "price": "₹ 22"
+        },
+        {
+            "id": 6,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/food_colour_img2.jpg",
+            "name": "Red food colour",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Red food color is used to make food look red. It is added to items like cakes, ice creams, and candies to make them colorful.",
+            "price": "₹ 20"
+        },
+        {
+            "id": 7,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/food_colour_img3.jpg",
+            "name": "Pink food colour",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Pink food color is a light, soft color. It is used to make food like cupcakes, frosting, and drinks look pink and pretty.",
+            "price": "₹ 25"   
+        },
+        {
+            "id": 8,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/food_colour_img4.jpg",
+            "name": "Blue food colour",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Blue food color gives a cool, blue color to food. It is used in foods like cupcakes, drinks, and candies to give them a fun blue look.",
+            "price": "₹ 30"
+        },
+        {
+            "id": 9,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/gluten_img.jpg",
+            "name": "gluten",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":"Gluten is a protein found in wheat and other grains like barley and rye. It helps dough to stretch and rise, which is why it is important in baking bread and making other baked goods. Gluten gives bread its chewy texture.",
+            "price": "₹ 299"
+        },
+        {
+            "id": 10,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/milk_maid_img.jpg",
+            "name": "milk maid",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":"Milk Maid is a brand name for sweetened condensed milk. It is thick, sweet milk that has most of the water taken out of it. It is used in making desserts, candies, and other sweet foods. Milk Maid is often used to make things like puddings, cakes, and ice creams because it adds sweetness and creaminess.",
+            "price": "₹ 147"
+        },
+        {
+            "id": 11,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/oil.jpg",
+            "name": "oil",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Olive oil is a type of oil made from olives, a fruit that grows on olive trees. It is known for being healthy because it has good fats that are good for your heart. Olive oil is used in cooking, especially for frying, salad dressings, and in Mediterranean dishes. It comes in different types, like extra virgin olive oil, which is the highest quality, and other types that are more processed.",
+            "price": "₹ 60"
+        },
+        {
+            "id": 12,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/salt_img.jpg",
+            "name": "salt",
+            "description": "Salt is a white, crystal-like substance that is used to add flavor to food. It comes from the sea or from salt mines. Salt helps to make food taste better and is important in cooking. There are different types of salt, like table salt, sea salt, and rock salt, each with slightly different tastes and uses.",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "price": "₹ 19"
+        },
+        {
+            "id": 13,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/sprinkles_img.jpg",
+            "name": "sprinkle",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Sprinkles are small, colorful pieces of sugar or candy that are used to decorate cakes, cupcakes, cookies, and other desserts. They are usually added on top of cakes to make them look more fun and attractive. Sprinkles can come in many shapes and colors, such as round, star-shaped, or long, and they make desserts look extra special.",
+            "price": "₹ 300"
+        },
+        {
+            "id": 14,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/sugar.jpg",
+            "name": "sugar",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":"White sugar is a sweet powder or crystal that comes from sugarcane or sugar beets. It is used to make food and drinks sweet. White sugar is very common and is used in cakes, candies, tea, coffee, and many other foods. It is made by removing the natural color and impurities from the sugar.",
+            "price": "₹ 29"
+        },
+        {
+            "id": 15,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/whipping_img.jpg",
+            "name": "whipping cream",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Whipping cream is a type of cream that can be whipped to become light, fluffy, and airy. It is usually used to make toppings for cakes, pies, and other desserts. When you beat it with a mixer, it becomes thicker and forms soft peaks. Whipping cream is used in both sweet and savory dishes to add richness and texture.",
+            "price": "₹ 220"
+        },
+        {
+            "id": 16,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/yeast_img.jpg",
+            "name": "yeast",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "Yeast is a tiny living organism that helps dough rise. It feeds on sugar and produces gas, which makes the dough puff up and become light. Yeast is used in baking bread, pizza dough, and other baked goods to make them soft and airy.",
+            "price": "₹ 300"
+        }
+        
+        
+
+    ]
+  }

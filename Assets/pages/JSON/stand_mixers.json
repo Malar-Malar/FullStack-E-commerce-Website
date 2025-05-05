@@ -1,0 +1,77 @@
+{
+    "products": [
+        {
+          "id":1,
+          "image": "../../../Assets/images/my-wish-list.png",
+          "image1": "../../../Assets/images/stand_mixers2.jpg",
+          "name": "stand mixer 8",
+          "image2": "../../../Assets/images/star_rating_img.webp",
+          "description": "A stand mixer is a kitchen appliance used to mix, knead, and whip ingredients. It has a motorized base and a bowl that stays in place while a paddle or whisk moves to mix the ingredients. It’s commonly used for tasks like making dough, cake batter, and whipping cream. Stand mixers are powerful and save time compared to mixing by hand. They are easy to use, and you can change the attachments depending on what you are making.",
+          "price": "₹ 9000"
+        },
+        {
+            "id":2,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/stand_mixers4.jpg",
+            "name": "stand mixer 7",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A stand mixer is a kitchen appliance used to mix, knead, and whip ingredients. It has a motorized base and a bowl that stays in place while a paddle or whisk moves to mix the ingredients. It’s commonly used for tasks like making dough, cake batter, and whipping cream. Stand mixers are powerful and save time compared to mixing by hand. They are easy to use, and you can change the attachments depending on what you are making.",
+            "price": "₹ 8200"
+        },
+        {
+            "id":3,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/stand_mixers3.jpg",
+            "name": "stand mixer 6",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A stand mixer is a kitchen appliance used to mix, knead, and whip ingredients. It has a motorized base and a bowl that stays in place while a paddle or whisk moves to mix the ingredients. It’s commonly used for tasks like making dough, cake batter, and whipping cream. Stand mixers are powerful and save time compared to mixing by hand. They are easy to use, and you can change the attachments depending on what you are making.",
+            "price": "₹ 5000"
+        },{
+            "id":4,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/stand_mixers5.jpg",
+            "name": "stand mixer 5",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A stand mixer is a kitchen appliance used to mix, knead, and whip ingredients. It has a motorized base and a bowl that stays in place while a paddle or whisk moves to mix the ingredients. It’s commonly used for tasks like making dough, cake batter, and whipping cream. Stand mixers are powerful and save time compared to mixing by hand. They are easy to use, and you can change the attachments depending on what you are making.",
+            "price": "₹ 8500"
+        },
+        {
+            "id":5,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/stand_mixers1.jpg",
+            "name": "stand mixer 4",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A stand mixer is a kitchen appliance used to mix, knead, and whip ingredients. It has a motorized base and a bowl that stays in place while a paddle or whisk moves to mix the ingredients. It’s commonly used for tasks like making dough, cake batter, and whipping cream. Stand mixers are powerful and save time compared to mixing by hand. They are easy to use, and you can change the attachments depending on what you are making.",
+            "price": "₹ 9000"
+        },
+        {
+            "id":6,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/stand_mixers6.jpg",
+            "name": "stand mixer 3",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A stand mixer is a kitchen appliance used to mix, knead, and whip ingredients. It has a motorized base and a bowl that stays in place while a paddle or whisk moves to mix the ingredients. It’s commonly used for tasks like making dough, cake batter, and whipping cream. Stand mixers are powerful and save time compared to mixing by hand. They are easy to use, and you can change the attachments depending on what you are making.",
+            "price": "₹ 32000"
+        },
+        {
+            "id":7,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/stand_mixers7.jpg",
+            "name": "stand mixer 2",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A stand mixer is a kitchen appliance used to mix, knead, and whip ingredients. It has a motorized base and a bowl that stays in place while a paddle or whisk moves to mix the ingredients. It’s commonly used for tasks like making dough, cake batter, and whipping cream. Stand mixers are powerful and save time compared to mixing by hand. They are easy to use, and you can change the attachments depending on what you are making.",
+            "price": "₹ 35000"   
+        },
+        {
+            "id":8,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/stand_mixers8.jpg",
+            "name": "stand mixer 1",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A stand mixer is a kitchen appliance used to mix, knead, and whip ingredients. It has a motorized base and a bowl that stays in place while a paddle or whisk moves to mix the ingredients. It’s commonly used for tasks like making dough, cake batter, and whipping cream. Stand mixers are powerful and save time compared to mixing by hand. They are easy to use, and you can change the attachments depending on what you are making.",
+            "price": "₹ 9000"
+        }
+        
+
+    ]
+  }

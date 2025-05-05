@@ -1,0 +1,75 @@
+ {
+    "products": [
+        {  "id": 1,
+          "image": "../../../Assets/images/my-wish-list.png",
+          "image1": "../../../Assets/images/cakeTopper_img2.jpg",
+           "name": "BirthDay caketopper",
+          "image2": "../../../Assets/images/star_rating_img.webp",
+          "description":  "A cute cake topper with small figurines or decorations, like flowers, stars, or a special message on top of a cake.",
+          "price": "₹ 39"
+        },
+        {   "id": 2,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cakeTopper_img3.jpg",
+            "name": "Anniversary caketopper",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":  "A cute cake topper with small figurines or decorations, like flowers, stars, or a special message on top of a cake.",
+            "price": "₹ 100"
+        },
+        {
+            "id": 3,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cakeTopper_img4.jpg",
+            "name": "couple 2 caketopper",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":  "A cute cake topper with small figurines or decorations, like flowers, stars, or a special message on top of a cake.",
+            "price": "₹ 79"
+        },{
+            "id": 4,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/cakeTopper_img5.jpg",
+            "name": "Mr&Mrs caketopper",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":  "A cute cake topper with small figurines or decorations, like flowers, stars, or a special message on top of a cake.",
+            "price": "₹ 110"
+        },
+        {   
+            "id": 5,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/cakeTopper_img6.jpg",
+            "name": "Love caketopper",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":  "A cute cake topper with small figurines or decorations, like flowers, stars, or a special message on top of a cake.",
+            "price": "₹ 60"
+        },
+        {
+            "id": 6,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cakeTopper_img7.jpg",
+            "name": "couple1 caketopper",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":  "A cute cake topper with small figurines or decorations, like flowers, stars, or a special message on top of a cake.",
+            "price": "₹ 139"
+        },
+        {
+            "id": 7,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cakeTopper_img8.jpg",
+            "name": "Couple caketopper",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":  "A cute cake topper with small figurines or decorations, like flowers, stars, or a special message on top of a cake.",
+            "price": "₹ 120"   
+        },
+        {
+            "id": 8,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cakeTopper_img1.jpg",
+            "name": "Rakhi caketopper",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":  "A cute cake topper with small figurines or decorations, like flowers, stars, or a special message on top of a cake.",
+            "price": "₹ 99"
+        }
+        
+
+    ]
+  }

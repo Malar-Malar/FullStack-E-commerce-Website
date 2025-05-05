@@ -1,0 +1,77 @@
+ {
+    "products": [
+        {
+          "id":1,
+          "image": "../../../Assets/images/my-wish-list.png",
+          "image1": "../../../Assets/images/bread_tin2.jpg",
+          "name": "Tin",
+          "image2": "../../../Assets/images/star_rating_img.webp",
+          "description":"A bread tin is a rectangular metal pan used for baking bread. It helps the bread keep its shape while baking. The tin has tall sides and a flat bottom, making it perfect for making loaves of bread.",
+          "price": "₹ 100"
+        },
+        {
+            "id":2,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/bread_tin1.jpg",
+            "name": "Bread tin square",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A bread tin is a square metal pan used for baking bread. It helps the bread keep its shape while baking. The tin has tall sides and a flat bottom, making it perfect for making loaves of bread.",
+            "price": "₹ 159"
+        },
+        {
+            "id":3,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/bread_tin3.jpg",
+            "name": "Bread tin rectangle",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description":"A bread tin is a rectangular metal pan used for baking bread. It helps the bread keep its shape while baking. The tin has tall sides and a flat bottom, making it perfect for making loaves of bread.",
+            "price": "₹ 899"
+        },{
+            "id":4,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/bread_tin4.jpg",
+            "name": "cupcake tin",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A cupcake tin is a metal tray with small, round cups used to bake cupcakes. It helps the cupcakes keep their shape while baking. The tin usually has 6, 12, or more cups to hold each cupcake.",
+            "price": "₹ 299"
+        },
+        {
+            "id":5,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cake_tin1.jpg",
+            "name": "Heart tin",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A cake tin is a heart pan used for baking cakes. It has shorter sides than a bread tin and is usually made of metal. The shape helps cakes bake evenly and come out easily after they cool.",
+            "price": "₹ 250"
+        },
+        {
+            "id":6,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cake_tin2.jpg",
+            "name": "Cake tin",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A cake tin is a round or square pan used for baking cakes. It has shorter sides than a bread tin and is usually made of metal. The shape helps cakes bake evenly and come out easily after they cool.",
+            "price": "₹ 300"
+        },
+        {
+            "id":7,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cake_tin3.jpg",
+            "name": "Flower tin",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A cake tin is a flower pan used for baking cakes. It has shorter sides than a bread tin and is usually made of metal. The shape helps cakes bake evenly and come out easily after they cool.",
+            "price": "₹ 180"   
+        },
+        {
+            "id":8,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/cake_tin4.jpg",
+            "name": "Cake tin",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A cake tin is a round or square pan used for baking cakes. It has shorter sides than a bread tin and is usually made of metal. The shape helps cakes bake evenly and come out easily after they cool.",
+            "price": "₹ 600"
+        }
+        
+
+    ]
+  }

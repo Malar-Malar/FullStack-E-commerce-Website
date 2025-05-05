@@ -1,0 +1,77 @@
+ {
+    "products": [
+        { 
+           "id": 1,
+          "image": "../../../Assets/images/my-wish-list.png",
+          "image1": "../../../Assets/images/mould_img1.jpg",
+          "name": "Chocolate Mould ",
+          "image2": "../../../Assets/images/star_rating_img.webp",
+          "description": "A chocolate mould is a tool used to shape melted chocolate into various designs or forms. It is usually made of plastic, silicone, or metal. After melting the chocolate, you pour it into the mould and let it cool and harden. Once it sets, you can remove the shaped chocolate from the mould.", 
+          "price": "₹ 120"
+        },
+        {
+            "id": 2,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/mould_img3.jpg",
+            "name": "Brown Heart Mould",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A chocolate mould is a tool used to shape melted chocolate into various designs or forms. It is usually made of plastic, silicone, or metal. After melting the chocolate, you pour it into the mould and let it cool and harden. Once it sets, you can remove the shaped chocolate from the mould.",
+            "price": "₹ 180"
+        },
+        {
+            "id": 3,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/mould_img4.jpg",
+            "name": " Pink Heart mould",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A chocolate mould is a tool used to shape melted chocolate into various designs or forms. It is usually made of plastic, silicone, or metal. After melting the chocolate, you pour it into the mould and let it cool and harden. Once it sets, you can remove the shaped chocolate from the mould.",
+            "price": "₹ 200"
+        },{
+            "id": 4,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/mould_img5.jpg",
+            "name": "Mould",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A chocolate mould is a tool used to shape melted chocolate into various designs or forms. It is usually made of plastic, silicone, or metal. After melting the chocolate, you pour it into the mould and let it cool and harden. Once it sets, you can remove the shaped chocolate from the mould.",
+            "price": "₹ 220"
+        },
+        {
+            "id": 5,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/mould_img6.jpg",
+            "name": "Flower Mould",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A chocolate mould is a tool used to shape melted chocolate into various designs or forms. It is usually made of plastic, silicone, or metal. After melting the chocolate, you pour it into the mould and let it cool and harden. Once it sets, you can remove the shaped chocolate from the mould.",
+            "price": "₹ 200"
+        },
+        {
+            "id": 6,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/mould_img7.jpg",
+            "name": "Pink Colour Mould",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A chocolate mould is a tool used to shape melted chocolate into various designs or forms. It is usually made of plastic, silicone, or metal. After melting the chocolate, you pour it into the mould and let it cool and harden. Once it sets, you can remove the shaped chocolate from the mould.",
+            "price": "₹ 60"
+        },
+        {
+            "id": 7,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1": "../../../Assets/images/mould_img8.jpg",
+            "name": "Purple Mould",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A chocolate mould is a tool used to shape melted chocolate into various designs or forms. It is usually made of plastic, silicone, or metal. After melting the chocolate, you pour it into the mould and let it cool and harden. Once it sets, you can remove the shaped chocolate from the mould.",
+            "price": "₹ 100"   
+        },
+        {
+            "id": 7,
+            "image": "../../../Assets/images/my-wish-list.png",
+            "image1":"../../../Assets/images/mould_img9.jpg",
+            "name": "Flower Shape mould",
+            "image2": "../../../Assets/images/star_rating_img.webp",
+            "description": "A chocolate mould is a tool used to shape melted chocolate into various designs or forms. It is usually made of plastic, silicone, or metal. After melting the chocolate, you pour it into the mould and let it cool and harden. Once it sets, you can remove the shaped chocolate from the mould.",
+            "price": "₹ 250"
+        }
+        
+
+    ]
+  }

@@ -1,0 +1,114 @@
+/* General body styling */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    background-color: rgb(114, 77, 25);
+    height: 40px;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    z-index: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header h1 {
+    color: white;
+}
+
+.searchbar {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.space {
+    height: 120px;
+}
+
+.header img {
+    height: 30px;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+/* Product container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 100px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Wishlist Image - Positioned to the top-right corner */
+.Whislist-img{
+    height: 30px;
+    width: 30px;
+}
+/* Individual product card */
+.products {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; /* Allow absolute positioning inside */
+}
+
+
+
+.products img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.products h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.products:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Space below header */
+.space {
+    height: 20px;
+}
+
+/* Page title */
+.head {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+    color: #333;
+}

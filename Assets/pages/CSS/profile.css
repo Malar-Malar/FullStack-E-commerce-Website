@@ -1,0 +1,315 @@
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.profile_container {
+    display: block;
+    text-align: center;
+    background-color: rgb(126, 81, 51); 
+    padding: 20px;
+    border-radius: 10px;
+    
+} */
+
+/* Logout Button */
+/* button {
+    position: absolute; 
+    top: 10px;
+    right: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+} */
+
+/* button:hover {
+    background-color: #d1b08f; 
+} */
+
+/* Home Link */
+/* .home {
+    position: absolute; 
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: text-decoration 0.3s ease; 
+} */
+
+/* .home:hover {
+    text-decoration: underline; 
+} */
+
+/* Profile Image */
+/* .profile_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; /* Circle shape */
+    /* margin-bottom: 15px;
+    border: 2px solid white; /* White border for better visibility 
+}  
+
+/* Profile Information */
+/* p {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+} */
+
+/* Container for the order list */
+/* #orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+} */
+
+/* Style each order item */
+/* .order {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+} */
+
+/* Hover effect for each order */
+/* .order:hover {
+    transform: scale(1.02);
+} */
+
+/* Style for the order details section */
+/* .order-details {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+} */
+
+/* Order image styling */
+/* .order-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+} */
+
+/* Styling for the text content (name, price, date, etc.) */
+/* .order-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+} */
+
+/* .order-details strong {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+} */
+
+/* Style for the remove button */
+/* .remove-btn {
+    margin-left: 20px; /* Add spacing between button and order details */
+   /* padding: 8px 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; p
+    transition: background-color 0.3s ease;
+} */ 
+
+/* Hover effect for the remove button */
+/* .remove-btn:hover {
+    background-color: #c0392b;
+} */
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Remove default margins from the body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set default font */
+   
+}
+html{
+    overflow-x: hidden;
+  }
+
+/* Profile Container */
+.profile_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 81, 51); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; 
+    
+}
+
+/* Logout Button */
+button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d1b08f; /* Darker shade for hover effect */
+}
+
+a{
+    text-decoration: none;
+    margin-right: 1400px;
+    font-size: 25px;
+    color: white
+    
+}
+
+
+
+
+/* Profile Image */
+.profile_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; /* Circle shape */
+    margin-bottom: 15px;
+    border: 2px solid white; /* White border for better visibility */
+}
+
+/* Profile Information */
+.profile_container p {
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Order History Container */
+#orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px auto; /* Center the container */
+    width: 90%; /* Responsive width */
+    max-width: 500px; /* Limit maximum width */
+}
+
+/* Style each order item */
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+/* Hover effect for each order */
+.order:hover {
+    transform: scale(1.02);
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Order Details Section */
+.order-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+}
+
+/* Order Image */
+.order-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Border around the image */
+}
+
+/* Order Text Content */
+.order-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.order-details strong {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Remove Button */
+/* .remove-btn {
+    padding: 8px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-top: 400px;
+} */
+
+/* Hover effect for remove button */
+/* .remove-btn:hover {
+    background-color: #c0392b;
+} */
+
+/* No Orders Found Message */
+#orders-list p {
+    font-size: 16px;
+    color: #342e2e;
+    text-align: center;
+    margin: 20px 0;
+}
